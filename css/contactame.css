@@ -1,0 +1,82 @@
+.contact-section {
+    width: 100vw;
+    background-color: #191c32;
+    color: #fff;
+    padding: 3em;
+  }
+
+.contact-heading {
+padding-top: 5rem;
+font-size: 1.5em;
+color: #fff;
+}
+
+.container-contact {
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+.contact__image--correo {
+justify-content: center;
+width: 300px;
+height: 300px;
+}
+
+::placeholder {
+    color:gray;
+    font-weight: bold;
+    font-size: .8em;
+  }
+
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin-top: 2em;
+  }
+  .form-group textarea {
+    height: 150px;
+    padding: 1.5em;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+  }
+  
+  .form-group .input {
+    padding: 10px 20px;
+    margin-bottom: 1em;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+    color: #fff;
+  }
+
+  .btn-submit {
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: aqua;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .container-contact {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+        
+    }
+    .contact__image--correo {
+      width: 150px;
+      height: 150px;
+     }
+     .btn-submit  {
+      font-size: 0.6rem;
+      color: black;
+     }
+    
+  }

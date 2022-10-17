@@ -1,0 +1,97 @@
+.cabecera {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background:#191c32;
+  justify-content: space-around;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.cabecera__logo{
+  width: 50px;
+  height: 50px;
+}
+
+.menu__lista {
+     display: flex;
+  
+  }
+
+.cabecera.active {
+ background:#191c32; 
+ padding: 5px;
+}
+.cabecera.active .cabecera__logo,
+.cabecera.active .menu__lista li a {
+  color: white;
+}
+
+
+.menu__link {
+  display: flex;
+  display: inline-block;
+  padding: 10px 10px;
+  text-decoration: none;
+}
+
+.menu {
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+.menu  li {
+  list-style: none;
+
+}
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.menu li:hover a{
+  color: #191c32;
+  background: #66E7C8;
+  font-weight: bold;
+  transition: ease-in 0.3s;
+  border-radius: 5px;
+}
+
+.download-cv {
+  padding: 10px 20px;
+  background-color: aqua;
+  border: none;
+  border-radius: 20px;
+  margin-top: 10px;
+  cursor: pointer;
+  
+}
+.download-cv:hover {
+  background: rgb(25, 49, 49);
+  box-shadow: none;
+  transition: 1s;
+}
+
+
+button {
+  font-weight:bold;
+  color: gray;
+}
+
+
+@media screen and (max-width: 768px) {
+  .menu__lista {
+    display: flex;
+    flex-direction: column;
+    background: #66E7C8;
+ 
+  }
+
+  .cabecera__logo {
+    display: none;
+}
+
+}

@@ -1,0 +1,140 @@
+<!--PORTFOLIO-->
+    <div class="portfolio">
+      <div class="portfolio-heading">
+        <h2>Mi Portafolio</h2>
+      </div>
+       
+      <div class="container">
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/Ahorcado.png" alt="Imagen Ahorcado">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">Encriptador</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+          <div class="card__tech">
+            <a href=""> <i class="fa-brands fa-html5"></i></a>
+            <a href=""><i class="fa-brands fa-css3"></i></a>
+            <a href=""><i class="fa-brands fa-js"></i></a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/TechNews.png" alt="Imagen Tech News">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">TechNews</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>            
+          </div>
+            <div class="card__tech">
+              <a href=""> <i class="fa-brands fa-html5"></i></a>
+              <a href=""> <i class="fa-brands fa-css3"></i></a>
+              <a href=""> <i class="fa-brands fa-js"></i></a>
+           </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/Barberia.png" alt="Imagen Ahorcado">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">Barberia Alura</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>            
+          </div>
+            <div class="card__tech">
+              <a href=""> <i class="fa-brands fa-html5"></i></a>
+              <a href=""> <i class="fa-brands fa-css3"></i></a>
+              <a href=""> <i class="fa-brands fa-js"></i></a>
+           </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/Apeperia.png" alt="Imagen Ahorcado">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">Apeperia Alura</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+          <div class="card__tech">
+            <a href=""> <i class="fa-brands fa-html5"></i></a>
+            <a href=""> <i class="fa-brands fa-css3"></i></a>
+            <a href=""> <i class="fa-brands fa-js"></i></a>
+         </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/MiniAlura.png" alt="Imagen Ahorcado">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">Mini Alura</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+            </div>
+            <div class="card__tech">
+              <a href=""> <i class="fa-brands fa-html5"></i></a>
+              <a href=""> <i class="fa-brands fa-css3"></i></a>
+              <a href=""> <i class="fa-brands fa-js"></i></a>
+           </div>
+        </div>
+        <div class="card">
+          <div class="card__img">
+            <img class="card__img-foto" src="/img/Store.png" alt="Imagen Ahorcado">
+          </div>
+          <div class="card__title">
+            <h2>Project</h2>
+            <h3 class="card__descripcion">Games</h3>
+          </div>
+          <div class="card__proyect-links">
+            <a href="#">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+          <div class="card__tech">
+            <a href=""> <i class="fa-brands fa-html5"></i></a>
+            <a href=""> <i class="fa-brands fa-css3"></i></a>
+            <a href=""> <i class="fa-brands fa-js"></i></a>
+         </div>
+      </div>
+    </div>
